@@ -35,6 +35,7 @@ body {
     display: none !important;
 
 }
+
 .navbar .pad:hover .ddd {
     display: block !important;
 }
@@ -79,7 +80,14 @@ body {
     font-weight: 400;
     position: relative;
 }
-h1::after {
+#typed {
+    font-size: 35px;
+    padding-top: 10px;
+    font-weight: 300;
+    color: #fff;
+
+}
+/* h1::after {
 
     content: ' |';
     position: absolute;
@@ -94,8 +102,8 @@ h1::after {
     font-weight: 300
 
 
-}
-@keyframes typing {
+} */
+/* @keyframes typing {
     0% {
         content: ' |';
     }
@@ -279,7 +287,7 @@ h1::after {
     100% {
         content: '  D|';
     }
-}
+} */
 
 /*****************************************about******************************************************* */
 
@@ -678,8 +686,8 @@ h1::after {
         font-size: 25px !important;
         font-weight: 400;
     }
-    h1::after {
-        font-size: 20px;
+    #typed {
+        font-size: 25px;
     }
     .container {
         padding: 10px 30px !important;

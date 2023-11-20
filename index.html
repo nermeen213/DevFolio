@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
-    <script src="./js/bootstrap.bundle.min.js"></script>
+   
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbar-example">
 
@@ -19,8 +19,8 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" class="color" id="navbar-example">
       <div class="container">
         <a class="navbar-brand fs-3 fw-bold" href="#">DevFolio</a>
-        <button class="navbar-toggler icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler icon " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon  "></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="fff">
@@ -90,6 +90,7 @@
       <div id="home" class="d-flex align-items-end">
             <div class="capation">
                 <h1 class="fs-1 text-white fw-bold" class="color">I am Morgan Freeman</h1>
+                <span id="typed"></span>
             </div>
             
         
@@ -773,7 +774,20 @@
 
 
 
-
+ <script src="./js/bootstrap.bundle.min.js"></script>
+ <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+ <script>
+  var typed = new Typed('#typed', {
+    strings: ['Freelancer', 'Developer', 'Designer'],
+    typeSpeed: 100,
+    backSpeed: 100,
+   
+    loop: true,
+    smartBackspace: true,
+  loopCount: Infinity,
+   
+  });
+</script>
 
 
 
